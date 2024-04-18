@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="~s./gt^CIWL`},Rd|n72">cross</variable><variable id="i{YY0ep!:Nu*Aph#YN~V">myImage</variable><variable id="}e^qM2ML4n0C+ZJ92WSV">creeper</variable></variables><block type="device_forever" id="bHqIe]Be+xZm.Lx{@ozA" x="118" y="68"><statement name="HANDLER"><block type="variables_set" id=":b?/%18Db9)1AA-?v/.;"><field name="VAR" id="~s./gt^CIWL`},Rd|n72">cross</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="]S.E!rh2U#}7)JlR:FC#"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></value><next><block type="variables_set" id="ySJ4CfyJoo4(GC)6F[Yq"><field name="VAR" id="}e^qM2ML4n0C+ZJ92WSV">creeper</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="{y^$/m7vAw!qRQc0Jugx"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field></block></value><next><block type="device_show_image_offset" id="-SZ%Rpi=N_/~|B=|csr]"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id=";ufRBB^4(6#QXVXq9Qqr"><field name="VAR" id="}e^qM2ML4n0C+ZJ92WSV">creeper</field></block></value><value name="offset"><shadow type="math_number" id=")4L[?EaMG;):0Ep);5EG"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="tFW@L_B.yv*;yM,Tp1_,"><field name="NUM">400</field></shadow></value><next><block type="device_show_image_offset" id="[hlZUJ`#`Oq^sB:3:N4."><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="=;1I_Qtts~Yk}m0R_~a^"><field name="VAR" id="~s./gt^CIWL`},Rd|n72">cross</field></block></value><value name="offset"><shadow type="math_number" id="e*M^`}u8y%037wH+G2Kl"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="_/8Yd*+i[M}jj6.N1`?]"><field name="NUM">400</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
